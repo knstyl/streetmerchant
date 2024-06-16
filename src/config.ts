@@ -160,7 +160,7 @@ function envOrNumberMax(
   return number ?? 0;
 }
 
-function loadProxyList(filename: string): string[] | undefined {
+function loadProxyList(filename: string | undefined): string[] | undefined {
   try {
     return readFileSync(`${filename}.proxies`)
       .toString()
@@ -245,6 +245,7 @@ const notifications = {
       '4070super': envOrArray(process.env.DISCORD_NOTIFY_GROUP_4070SUPER),
       '4070ti': envOrArray(process.env.DISCORD_NOTIFY_GROUP_4070TI),
       '4080-16g': envOrArray(process.env.DISCORD_NOTIFY_GROUP_4080_16G),
+      '4080-super': envOrArray(process.env.DISCORD_NOTIFY_GROUP_4080_SUPER),
       4090: envOrArray(process.env.DISCORD_NOTIFY_GROUP_4090),
       5070: envOrArray(process.env.DISCORD_NOTIFY_GROUP_5070),
       '5070ti': envOrArray(process.env.DISCORD_NOTIFY_GROUP_5070TI),
@@ -458,6 +459,7 @@ const store = {
       '4070super': envOrNumber(process.env.MAX_PRICE_SERIES_4070SUPER),
       '4070ti': envOrNumber(process.env.MAX_PRICE_SERIES_4070TI),
       '4080-16g': envOrNumber(process.env.MAX_PRICE_SERIES_4080_16G),
+      '4080-super': envOrNumber(process.env.MAX_PRICE_SERIES_4080_SUPER),
       4090: envOrNumber(process.env.MAX_PRICE_SERIES_4090),
       5070: envOrNumber(process.env.MAX_PRICE_SERIES_5070),
       '5070ti': envOrNumber(process.env.MAX_PRICE_SERIES_5070TI),

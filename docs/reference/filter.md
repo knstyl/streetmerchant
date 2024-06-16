@@ -10,6 +10,7 @@
 | `MAX_PRICE_SERIES_3080TI` | Maximum price allowed for a match, applies 3080 Ti series cards (does not apply to these sites: Nvidia, Asus, EVGA) |
 | `MAX_PRICE_SERIES_3090` | Maximum price allowed for a match, applies 3090 series cards (does not apply to these sites: Nvidia, Asus, EVGA) |
 | `MAX_PRICE_SERIES_4080_16G` | Maximum price allowed for a match, applies 4080 16G series cards (does not apply to these sites: Nvidia, Asus, EVGA) |
+| `MAX_PRICE_SERIES_4080_SUPER` | Maximum price allowed for a match, applies 4080 16G series cards (does not apply to these sites: Nvidia, Asus, EVGA) |
 | `MAX_PRICE_SERIES_4090` | Maximum price allowed for a match, applies 4090 series cards (does not apply to these sites: Nvidia, Asus, EVGA) |
 | `MAX_PRICE_SERIES_5070` | Maximum price allowed for a match, applies 5070 series cards (does not apply to these sites: Nvidia, Asus, EVGA) |
 | `MAX_PRICE_SERIES_5070TI` | Maximum price allowed for a match, applies 5070 Ti series cards (does not apply to these sites: Nvidia, Asus, EVGA) |
@@ -313,6 +314,7 @@ Used with the `SHOW_ONLY_SERIES` variable.
 | Nvidia RTX 4070 SUPER | `4070super` |
 | Nvidia RTX 4070 Ti | `4070ti` |
 | Nvidia RTX 4080 16G | `4080-16g` |
+| Nvidia RTX 4080 SUPER | `4080-super` |
 | Nvidia RTX 4090 | `4090` |
 | Nvidia RTX 5070 | `5070` |
 | Nvidia RTX 5070 Ti | `5070ti` |

@@ -2137,6 +2137,16 @@ export const Newegg: Store = {
       url: 'https://www.newegg.com/p/N82E16814126776',
       itemNumber: '14-126-776',
     },
+    {
+      brand: 'asus',
+      cartUrl:
+        'https://secure.newegg.com/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814126694',
+      model: 'tuf',
+      series: '4080-super',
+      url: 'https://www.newegg.com/asus-geforce-rtx-4080-super-tuf-rtx4080s-16g-gaming/p/N82E16814126694?Item=N82E16814126694',
+    },
+    
+
   ],
   name: 'newegg',
   country: 'US',

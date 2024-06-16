@@ -57,6 +57,7 @@ export type Series =
   | '4070super'
   | '4070ti'
   | '4080-16g'
+  | '4080-super'
   | '4090'
   | '5070'
   | '5070ti'

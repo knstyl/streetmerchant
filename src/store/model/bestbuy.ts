@@ -788,6 +788,13 @@ export const BestBuy: Store = {
     },
     {
       brand: 'asus',
+      cartUrl: 'https://api.bestbuy.com/click/-/6613334/cart',
+      model: 'astral',
+      series: '5090',
+      url: 'https://api.bestbuy.com/click/-/6613334/pdp',
+    },
+    {
+      brand: 'asus',
       cartUrl: 'https://api.bestbuy.com/click/-/6615831/cart',
       model: 'prime',
       series: '5080',
@@ -842,6 +849,34 @@ export const BestBuy: Store = {
       series: '5090',
       url: 'https://api.bestbuy.com/click/-/6615929/pdp',
     },
+    {
+      brand: 'nvidia',
+      cartUrl: 'https://api.bestbuy.com/click/-/6570219/cart',
+      model: 'founders edition',
+      series: '4080-super',
+      url: 'https://api.bestbuy.com/click/-/6570219/pdp',
+    },
+    {
+      brand: 'msi',
+      cartUrl: 'https://api.bestbuy.com/click/-/6571812/cart',
+      model: 'ventus 3x oc',
+      series: '4080-super',
+      url: 'https://api.bestbuy.com/click/-/6571812/pdp',
+    },
+    {
+      brand: 'asus',
+      cartUrl: 'https://api.bestbuy.com/click/-/6571572/cart',
+      model: 'tuf',
+      series: '4080-super',
+      url: 'https://api.bestbuy.com/click/-/6571572/pdp',
+    },
+    {
+      brand: 'asus',
+      cartUrl: 'https://api.bestbuy.com/click/-/6571648/cart',
+      model: 'strix',
+      series: '4080-super',
+      url: 'https://api.bestbuy.com/click/-/6571648/pdp',
+    }
   ],
   name: 'bestbuy',
   country: 'US',
