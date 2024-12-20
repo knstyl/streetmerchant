@@ -65,6 +65,8 @@ export type Series =
   | '5090'
   | 'a3-matx'
   | 'arc'
+  | '5080'
+  | '5090'
   | 'darkhero'
   | 'g4-doorbell-pro'
   | 'rx6700xt'
@@ -91,7 +93,10 @@ export type Series =
   | 'unvr-pro'
   | 'unvr'
   | 'xboxss'
-  | 'xboxsx';
+  | 'xboxsx'
+  | 'xboxsx'
+  | 'xboxss'
+  | 'x870e';
 
 export type Model =
   | 'test:model'
@@ -327,7 +332,11 @@ export type Model =
   | 'xlr8 verto oc'
   | 'xlr8 verto'
   | 'xlr8'
-  | 'xtreme';
+  | 'xtreme'
+  | 'xlr8 uprising'
+  | 'xtreme'
+  | 'qick'
+  | 'nova';
 
 export type Link = {
   brand: Brand;
