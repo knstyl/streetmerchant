@@ -250,6 +250,8 @@ export type Model =
   | 'qick'
   | 'red devil'
   | 'red dragon'
+  | 'rog astral'
+  | 'rog astral oc'
   | 'sg oc'
   | 'sg'
   | 'shadow 3x'
