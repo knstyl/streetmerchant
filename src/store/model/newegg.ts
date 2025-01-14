@@ -1591,7 +1591,6 @@ export const Newegg: Store = {
       url: 'https://www.newegg.com/asus-rog-crosshair-viii-dark-hero/p/N82E16814126601',
     },
     {
-<<<<<<< HEAD
       brand: 'sparkle',
       cartUrl:
         'https://secure.newegg.com/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814993013',
@@ -1607,7 +1606,7 @@ export const Newegg: Store = {
       series: 'a3-matx',
       url: 'https://www.newegg.com/p/2AM-000Z-000E0',
     },
-=======
+    {
       brand: 'asus',
       cartUrl:
         'https://secure.newegg.com/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814126694',
@@ -1671,8 +1670,6 @@ export const Newegg: Store = {
         'https://secure.newegg.com/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814126742',
       url: 'https://www.newegg.com/p/N82E16814126742'
     } 
-
->>>>>>> feature/pokemon-changes
   ],
   name: 'newegg',
   realTimeInventoryLookup: async (itemNumber: string) => {
