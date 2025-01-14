@@ -472,8 +472,7 @@ const store = {
       'g4-doorbell-pro': envOrNumber(
         process.env.MAX_PRICE_SERIES_G4_DOORBELL_PRO
       ),
-      5080: envOrNumber(process.env.MAX_PRICE_SERIES_5080),
-      5090: envOrNumber(process.env.MAX_PRICE_SERIES_5090),
+      'prismatic evolutions': envOrNumber(process.env.MAX_PRICE_SERIES_PRISMATIC),
       'x870e': envOrNumber(process.env.MAX_PRICE_SERIES_X870E),
       rx6700xt: envOrNumber(process.env.MAX_PRICE_SERIES_RX6700XT),
       rx6800: envOrNumber(process.env.MAX_PRICE_SERIES_RX6800),
