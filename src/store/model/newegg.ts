@@ -1591,6 +1591,7 @@ export const Newegg: Store = {
       url: 'https://www.newegg.com/asus-rog-crosshair-viii-dark-hero/p/N82E16814126601',
     },
     {
+<<<<<<< HEAD
       brand: 'sparkle',
       cartUrl:
         'https://secure.newegg.com/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814993013',
@@ -1606,6 +1607,72 @@ export const Newegg: Store = {
       series: 'a3-matx',
       url: 'https://www.newegg.com/p/2AM-000Z-000E0',
     },
+=======
+      brand: 'asus',
+      cartUrl:
+        'https://secure.newegg.com/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814126694',
+      model: 'tuf',
+      series: '4080-super',
+      url: 'https://www.newegg.com/asus-geforce-rtx-4080-super-tuf-rtx4080s-16g-gaming/p/N82E16814126694?Item=N82E16814126694',
+    },
+    {
+      brand: 'asrock',
+      model: 'nova',
+      series: 'x870e',
+      cartUrl:
+        'https://secure.newegg.com/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16813162163',
+      url: 'https://www.newegg.com/p/N82E16813162163'
+    },
+    {
+      brand: 'asus',
+      model: 'rog astral oc',
+      series: '5090',
+      cartUrl:
+        'https://secure.newegg.com/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814126751',
+      url: 'https://www.newegg.com/p/N82E16814126751'
+    },
+    {
+      brand: 'asus',
+      model: 'tuf',
+      series: '5090',
+      cartUrl:
+        'https://secure.newegg.com/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814126752',
+      url: 'https://www.newegg.com/p/N82E16814126752'
+    },
+    {
+      brand: 'asus',
+      model: 'tuf oc',
+      series: '5090',
+      cartUrl:
+        'https://secure.newegg.com/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814126753',
+      url: 'https://www.newegg.com/p/N82E16814126753'
+    },
+    {
+      brand: 'asus',
+      model: 'rog astral',
+      series: '5090',
+      cartUrl:
+        'https://secure.newegg.com/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814126750',
+      url: 'https://www.newegg.com/p/N82E16814126750'
+    },
+    {
+      brand: 'asus',
+      model: 'prime',
+      series: '5080',
+      cartUrl:
+        'https://secure.newegg.com/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814126744',
+      url: 'https://www.newegg.com/p/N82E16814126744'
+    },
+    {
+      brand: 'asus',
+      model: 'rog astral oc',
+      series: '5080',
+      cartUrl:
+        'https://secure.newegg.com/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814126742',
+      url: 'https://www.newegg.com/p/N82E16814126742'
+    } 
+
+>>>>>>> feature/pokemon-changes
   ],
   name: 'newegg',
   realTimeInventoryLookup: async (itemNumber: string) => {

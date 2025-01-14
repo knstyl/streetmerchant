@@ -38,6 +38,7 @@ export type Brand =
   | 'sony'
   | 'sparkle'
   | 'ubiquiti'
+  | 'pokemon tcg'
   | 'xfx'
   | 'zotac';
 
@@ -56,6 +57,7 @@ export type Series =
   | '3090'
   | '4080-12g'
   | '4080-16g'
+  | '4080-super'
   | '4090'
   | '5070'
   | '5070ti'
@@ -82,7 +84,9 @@ export type Series =
   | 'unvr'
   | 'unvr-pro'
   | 'xboxsx'
-  | 'xboxss';
+  | 'xboxss'
+  | 'x870e'
+  | 'prismatic evolutions';
 
 export type Model =
   | 'test:model'
@@ -211,6 +215,8 @@ export type Model =
   | 'phoenix gs'
   | 'phoenix 8G (LHR)'
   | 'phoenix'
+  | 'prime'
+  | 'prime oc'
   | 'ps5 console'
   | 'ps5 digital'
   | 'pulse'
@@ -219,6 +225,8 @@ export type Model =
   | 'red devil'
   | 'red dragon'
   | 'sf1000'
+  | 'rog astral'
+  | 'rog astral oc'
   | 'sg oc'
   | 'sg'
   | 'single fan'
@@ -282,7 +290,13 @@ export type Model =
   | 'xlr8 verto'
   | 'xlr8 uprising'
   | 'xtreme'
-  | 'qick';
+  | 'qick'
+  | 'nova'
+  | 'elite trainer box'
+  | 'booster bundle'
+  | 'binder collection'
+  | 'surprise box'
+  | 'mini tin'
 
 export type Link = {
   brand: Brand;
