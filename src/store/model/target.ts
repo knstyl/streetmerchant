@@ -42,6 +42,18 @@ export const Target: Store = {
       series: 'xboxss',
       url: 'https://www.target.com/p/xbox-series-s-console/-/A-80790842',
     },
+    {
+      brand: 'pokemon tcg',
+      model: 'elite trainer box',
+      series: 'prismatic evolutions',
+      url: 'https://www.target.com/p/2024-pok-scarlet-violet-s8-5-elite-trainer-box/-/A-93954435',
+    },
+    {
+      brand: 'pokemon tcg',
+      model: 'binder collection',
+      series: 'prismatic evolutions',
+      url: 'https://www.target.com/p/2025-pokemon-prismatic-evolutions-binder-collection/-/A-94300066',
+    },
   ],
   name: 'target',
   country: 'US',
