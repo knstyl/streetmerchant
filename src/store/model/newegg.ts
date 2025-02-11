@@ -1756,14 +1756,6 @@ export const Newegg: Store = {
     },
     {
       brand: 'asus',
-      model: 'rog astral',
-      series: '5090',
-      cartUrl:
-        'https://secure.newegg.com/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=N82E16814126750',
-      url: 'https://www.newegg.com/p/N82E16814126750'
-    },
-    {
-      brand: 'asus',
       model: 'prime',
       series: '5080',
       cartUrl:
