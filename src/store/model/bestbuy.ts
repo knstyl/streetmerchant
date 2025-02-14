@@ -780,13 +780,6 @@ export const BestBuy: Store = {
       url: 'https://api.bestbuy.com/click/-/6616090/pdp',
     },
     {
-      brand: 'msi',
-      cartUrl: 'https://api.bestbuy.com/click/-/6616093/cart',
-      model: 'ventus 3x oc',
-      series: '5090',
-      url: 'https://api.bestbuy.com/click/-/6616093/pdp',
-    },
-    {
       brand: 'asus',
       cartUrl: 'https://api.bestbuy.com/click/-/6614122/cart',
       model: 'tuf gaming oc',
@@ -799,13 +792,6 @@ export const BestBuy: Store = {
       model: 'prime',
       series: '5080',
       url: 'https://api.bestbuy.com/click/-/6615831/pdp',
-    },
-    {
-      brand: 'msi',
-      cartUrl: 'https://api.bestbuy.com/click/-/6616092/cart',
-      model: 'suprim soc',
-      series: '5090',
-      url: 'https://api.bestbuy.com/click/-/6616092/pdp',
     },
     {
       brand: 'asus',
