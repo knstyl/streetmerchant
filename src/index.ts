@@ -6,6 +6,9 @@ import {getSleepTime} from './util';
 import {logger} from './logger';
 import {storeList} from './store/model';
 import {tryLookupAndLoop} from './store';
+import { tryListingLookupAndLoop } from './store-listing/lookup-listing';
+import { NeweggListing } from './store-listing/model/newegg-listing';
+import { Newegg } from './store/model/newegg';
 
 let browser: Browser | undefined;
 
@@ -31,13 +34,21 @@ async function main() {
   browser = await launchBrowser();
 
   for (const store of storeList.values()) {
-    logger.debug('store links', {meta: {links: store.links}});
+
+    // don't run the store if it's not in the store list
+    if (config.store.stores.find(s => s.name === store.name) === undefined) {
+      continue;
+    }
+    
     if (store.setupAction !== undefined) {
       store.setupAction(browser);
     }
 
     setTimeout(tryLookupAndLoop, getSleepTime(store), browser, store);
   }
+
+  // start a separate loop for checking special cases of stores
+  setTimeout(tryListingLookupAndLoop, 5000, browser, NeweggListing);
 
   await startAPIServer();
 }

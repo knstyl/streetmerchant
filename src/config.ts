@@ -544,6 +544,14 @@ const store = {
   }),
 };
 
+const t = ['amazon', 'bestbuy'].map(entry => {
+
+  return {
+    name: entry
+  }
+})
+t.find(e => e.name === 'amazon')
+
 const restartTime = envOrNumber(process.env.RESTART_TIME, 0);
 
 export const defaultStoreData = {

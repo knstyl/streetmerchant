@@ -40,7 +40,8 @@ export type Brand =
   | 'ubiquiti'
   | 'pokemon tcg'
   | 'xfx'
-  | 'zotac';
+  | 'zotac'
+  | 'listing';
 
 export type Series =
   | 'test:series'
@@ -101,6 +102,7 @@ export type Series =
   | 'prismatic evolutions';
 
 export type Model =
+  | 'listing'
   | 'test:model'
   | 'captcha-deterrent'
   | '5600x'

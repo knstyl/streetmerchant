@@ -142,6 +142,7 @@ export async function getDMResponseAsync(
   timeout: number
 ): Promise<string> {
   if (!botMessage) return '';
+  logger.debug('↗ waiting for discord DM response');
   const iterations = Math.max(Math.floor(timeout / pollInterval), 1);
   let iteration = 0;
   const client = await getDiscordClientAsync();
@@ -158,14 +159,18 @@ export async function getDMResponseAsync(
         clearInterval(intervalId);
         resolve(result);
       };
+      logger.debug('↗ polling discord DM response');
       try {
         iteration++;
         const messages = await dmChannel.messages.fetch({
           after: botMessage?.id,
         });
+        logger.debug(`↗ messages: ${JSON.stringify(messages)}`);
+        logger.debug(`botMessage: ${JSON.stringify(botMessage)}`);
         const lastUserMessage = messages
-          .filter(message => message.reference?.messageId === botMessage?.id)
+          .filter(message => message.channelId === botMessage?.channelId)
           .last();
+          console.log(`lastUserMessage: ${JSON.stringify(lastUserMessage)}`);
         if (!lastUserMessage) {
           if (iteration >= iterations) {
             await dmChannel.send('Timed out waiting for response... 😿');
