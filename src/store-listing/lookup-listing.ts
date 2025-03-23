@@ -152,10 +152,6 @@ async function handleAdBlock(request: HTTPRequest, adBlockRequestHandler: any) {
  * @param store Vendor of items.
  */
 async function lookup(browser: Browser, store: StoreListing) {
-  if (!getStores().has(store.name)) {
-    return;
-  }
-
   if (store.linksBuilder) {
     const lastRunTime = linkBuilderLastRunTimes[store.name] ?? -1;
     const ttl = store.linksBuilder.ttl ?? Number.MAX_SAFE_INTEGER;
