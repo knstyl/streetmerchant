@@ -77,6 +77,30 @@ export const Walmart: Store = {
       model: 'nova',
       series: 'x870e',
       url: 'https://www.walmart.com/ip/ASRock-X870E-NOVA-WIFI-AM5-AMD-X870E-SATA-6Gb-s-ATX-Motherboard/12739601206'
+    },
+    {
+      brand: 'msi',
+      model: 'vanguard soc',
+      series: '5090',
+      url: 'https://www.walmart.com/ip/MSI-Vanguard-GeForce-RTX-5090-VANGUARD-SOC-Launch-Edition/15097454997'
+    },
+    {
+      brand: 'pny',
+      model: 'oc',
+      series: '5090',
+      url: 'https://www.walmart.com/ip/PNY-GeForce-RTX-5090-Overclocked-Triple-Fan-GPU-DLSS4/15046623228'
+    },
+    {
+      brand: 'pny',
+      model: 'epic x oc',
+      series: '5090',
+      url: 'https://www.walmart.com/ip/PNY-GeForce-RTX-5090-Overclocked-Triple-Fan-GPU-DLSS4/15046623228'
+    },
+    {
+      brand: 'msi',
+      model: 'gaming trio oc',
+      series: '5090',
+      url: 'https://www.walmart.com/ip/MSI-Gaming-Trio-GeForce-RTX-5090-32G-GAMING-TRIO-OC/15130965845'
     }
   ],
   name: 'walmart',
