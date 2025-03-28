@@ -94,13 +94,19 @@ export const Walmart: Store = {
       brand: 'pny',
       model: 'epic x oc',
       series: '5090',
-      url: 'https://www.walmart.com/ip/PNY-GeForce-RTX-5090-Overclocked-Triple-Fan-GPU-DLSS4/15046623228'
+      url: 'https://www.walmart.com/ip/PNY-GeForce-RTX-5090-EPIC-X-ARGB-Overclocked-Triple-Fan-GPU-DLSS4/15072274444'
     },
     {
       brand: 'msi',
       model: 'gaming trio oc',
       series: '5090',
       url: 'https://www.walmart.com/ip/MSI-Gaming-Trio-GeForce-RTX-5090-32G-GAMING-TRIO-OC/15130965845'
+    },
+    {
+      brand: 'pny',
+      model: 'epic x',
+      series: '5090',
+      url: 'https://www.walmart.com/ip/PNY-GeForce-RTX-5080-16GB-ARGB-Overclocked-Triple-Fan/15077808167'
     }
   ],
   name: 'walmart',
