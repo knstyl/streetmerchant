@@ -4,7 +4,7 @@ export const Walmart: Store = {
   currency: '$',
   labels: {
     inStock: {
-      container: '[data-automation-id="atc"]',
+      container: '[data-testid="add-to-cart-section"]',
       text: ['add to cart'],
     },
     maxPrice: {
@@ -105,7 +105,7 @@ export const Walmart: Store = {
     {
       brand: 'pny',
       model: 'epic x',
-      series: '5090',
+      series: '5080',
       url: 'https://www.walmart.com/ip/PNY-GeForce-RTX-5080-16GB-ARGB-Overclocked-Triple-Fan/15077808167'
     }
   ],
