@@ -4,11 +4,11 @@ export const Walmart: Store = {
   currency: '$',
   labels: {
     inStock: {
-      container: '.button.spin-button.prod-ProductCTA--primary.button--primary',
+      container: '[data-automation-id="atc"]',
       text: ['add to cart'],
     },
     maxPrice: {
-      container: 'span[class*="price-characteristic"]',
+      container: '[data-seo-id="hero-price"]',
     },
   },
   links: [
