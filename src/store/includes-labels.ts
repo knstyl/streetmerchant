@@ -55,7 +55,6 @@ export async function pageIncludesLabels(
       const selector = {...options, selector: query.container};
       const contents = (await extractPageContents(page, selector)) ?? '';
 
-      logger.info(`checking for labels in contents: ${await page.content()} using selector ${selector.selector}`);
       if (!contents) {
         return false;
       }

@@ -326,7 +326,6 @@ async function lookupIem(
   };
   
   if (store.labels.captcha) {
-    logger.info(`[${store.name}] Checking for CAPTCHA...`);
     if (await pageIncludesLabels(page, store.labels.captcha, baseOptions)) {
       logger.warn(Print.captcha(link, store, true));
       if (config.captchaHandler.service && store.labels.captchaHandler) {
