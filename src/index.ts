@@ -48,7 +48,7 @@ async function main() {
   }
 
   // start a separate loop for checking special cases of stores
-  setTimeout(tryListingLookupAndLoop, 5000, browser, NeweggListing);
+  //setTimeout(tryListingLookupAndLoop, 5000, browser, NeweggListing);
 
   await startAPIServer();
 }

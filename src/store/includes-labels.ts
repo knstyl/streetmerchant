@@ -1,6 +1,7 @@
 import {Element, LabelQuery, Pricing} from './model';
 import {Page} from 'puppeteer';
 import {logger} from '../logger';
+import { log } from 'console';
 
 export type Selector = {
   requireVisible: boolean;
@@ -54,6 +55,7 @@ export async function pageIncludesLabels(
       const selector = {...options, selector: query.container};
       const contents = (await extractPageContents(page, selector)) ?? '';
 
+      logger.info(`checking for labels in contents: ${await page.content()} using selector ${selector.selector}`);
       if (!contents) {
         return false;
       }
@@ -111,6 +113,7 @@ export function includesLabels(
   searchLabels: string[]
 ): boolean {
   const domTextLowerCase = domText.toLowerCase();
+  logger.debug('dom text: ', domTextLowerCase);
   return searchLabels.some(label =>
     domTextLowerCase.includes(label.toLowerCase())
   );
