@@ -20,6 +20,7 @@ export async function delay(ms: number) {
 
 export function noop() {
   // Do nothing
+  // noop
 }
 
 export function isStatusCodeInRange(
